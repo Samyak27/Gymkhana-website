@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gymkhana</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="complain.css"/>
+   <link type="text/css" rel="stylesheet" href="page1.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script>
+        $(document).ready( function (){
+            
+           $("#comp").click( function (){
+               $("#back").show(4000);
+           }); 
+           
+        });
+    </script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><!--<img id="logo" src="../img/seal.png"/>--></a>
+    </div>
+     
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Heads</a></li>
+      <li><a href="#">Council</a></li>
+      <li><a href="#">Clubs</a></li>
+      <li><a href="#">Suggestions</a></li>
+      <li class="active"><a href="#">Complaints</a></li>
+    </ul>
+  </div>
+</nav>
+    <img class="bg" src="../img/cp.jpg" />
+    <div class="container">
+        <h1><span style="font-family: roboto;">Complaints and Suggestions</span></h1>
+  <p id="p1">Thanks you for visiting us.</p>
+  <p id="p2">Please use the forms to share your views.</p>
+</div>
+    <div class="container" >
+        <button type="button" class="btn btn-info btn-lg" id="comp"><span style="font-family: roboto; color:white;">File a complain</span></button>
+   <button type="button" class="btn btn-info btn-lg" id="feed"><span style="font-family: roboto; color:#009999">Provide Feedback</span></button>
+</div>
+     <div id="back">
+        <h3>File a complain</h3>
+        <a href="http://goo.gl/forms/xPxSHm29M4fZ7Swt1">
+        <div id="box">
+            <img class="img" src="../img/h.png" alt="loading"/>
+            <p class="p2">Hostel issue</p>
+        </div> 
+         </a>
+        <a href="http://goo.gl/forms/oXwJvlCGMW5OCyWU2">
+        <div id="box1">
+            <img class="img" src="../img/m.png" alt="loading"/>
+            <p class="p2">Mess issue</p>
+        </div> 
+        </a>
+        <a href="http://goo.gl/forms/UtJYlXgEvWqWRbG83">
+        <div id="box2">
+            <img class="img" src="../img/ac.png" alt="loading"/>
+            <p id="ai">Academic issue</p>
+        </div> 
+        </a>
+         <a href="http://goo.gl/forms/GchtaTLS97l0WCJ92">
+        <div id="box3">
+            <img class="img" src="../img/ad.png" alt="loading"/>
+            <p class="p2">Admin issue</p>
+        </div> 
+        </a>
+        <a href="http://goo.gl/forms/af8SWXNsH6VWcFsy2">
+        <div id="box4">
+            <img class="img" src="../img/sc.png" alt="loading"/>
+            <p id="si">Sci and tech issue</p>
+        </div> 
+        </a>
+        <a href="">
+        <div id="box5">
+            <img class="img" src="../img/c.png" alt="loading"/>
+            <p class="p2">Cultural issue</p>
+        </div> 
+        </a>
+        <a href="http://goo.gl/forms/idBN0CZQGeOUg7FJ3">
+        <div id="box6">
+            <img class="img" src="../img/s.png" alt="loading"/>
+            <p class="p2">Sports issue</p>
+        </div> 
+        </a>
+        <a href="">
+        <div id="box7">
+            <img class="img" src="../img/q.png" alt="loading"/>
+            <p class="p2">COSHA issue</p>
+        </div> 
+        </a>
+
+    </div>
+    </body>
+</html>
