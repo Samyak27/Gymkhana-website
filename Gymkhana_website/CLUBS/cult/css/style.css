@@ -1090,7 +1090,11 @@
 	.sankalpBanner {background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../images/sankalpbanner.jpg");
 		background-position: center top;
-		background-size: cover;}	
+		background-size: cover;}
+	.musicBanner {background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("../images/musicbanner.jpg");
+		background-position: center top;
+		background-size: cover;}
 		
 	
 
@@ -1178,6 +1182,12 @@
 		.wrapper.sankalpbanner{
 			background-attachment: fixed;
 			background-image: url("images/overlay.png"), url("../images/sankalpbanner.jpg");
+			background-position: center center;
+			background-size: cover;
+		}
+		.wrapper.musicbanner{
+			background-attachment: fixed;
+			background-image: url("images/overlay.png"), url("../images/musicbanner.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
