@@ -74,7 +74,7 @@
                   <ul class="slides">
                     <li>
                       <div class="col-md-4 wp5">
-                        <img src="img/akshay.jpg" style="height:200px;width:200px; border:1px solid; border-radius:50%;" alt="Team Member">
+                        <img src="img/akshay.JPG" style="height:200px;width:200px; border:1px solid; border-radius:50%;" alt="Team Member">
                         <h2>Akshay Modi</h2>
                         <p>General Secretary, Cultural Council</p>
                         <div class="social">
@@ -87,7 +87,7 @@
                       </div>
                       
                       <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/team-02.png" alt="Team Member">
+                        <img src="img/vip.jpg" style="height:200px;width:200px; border:1px solid; border-radius:50%;" alt="Team Member">
                         <h2>Vipul Behl</h2>
                         <p>General Secretary, Science & Tech Council</p>
                         <div class="social">
@@ -520,7 +520,6 @@
                 </ul>
               </div>
               <div class="col-md-6 credit">
-                <p>text<a href="#">Samyak Dutt Gupta</a>  <a href=""><em></em></a></p>
               </div>
             </div>
           </div>
