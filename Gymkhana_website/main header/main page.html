@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/flickity.min.css">
     <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
@@ -49,7 +50,7 @@
         <div class="row">
             <div class="header-nav-wrapper">
                 <div class="logo">
-                    <a href="/index.html"><img src="img/" alt=""></a>
+                    <a href="http://www.lnmiit.ac.in" target="_blank"><img src=" img/lnm.png" alt=""height="52px" style="height:60px;width:200px;margin-left:-40px;margin-top:-25px;position:relative;"></a>
                 </div>
                 <div class="primary-nav-wrapper">
                     <nav>
@@ -395,30 +396,42 @@
                 <div class="row">
                     <div class="col-md-4">
                         <article class="article-post">
-                            <a href="../Councils/ZoomSlider/presi.html">
-                                <div class="article-image has-overlay" style="background-image: url(img/pres.jpg)">
-                                    <!--<span class="featured-tag">Featured</span>-->
-                                </div>
-                                <figure>
-                                    <figcaption>
-                                        <h2>Presidential Council</h2>
-                                        <p>About presidential Council</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <ul class="article-footer">
-                                <li class="article-category">
-                                    <a href="#">Members</a>
-                                </li>
-                                <li class="article-comments">
-                                    <span><i class="fa fa-comments"></i> 5</span>
-                                </li>
-                            </ul>
-                        </article>
+						
+							
+								<a onclick="openpresi()">
+									<div class="article-image has-overlay" style="background-image: url(img/pres.jpg)">
+										<!--<span class="featured-tag">Featured</span>-->
+									</div>
+									<figure>
+										<figcaption>
+											<h2>Presidential Council</h2>
+											<p>About presidential Council</p>
+										</figcaption>
+									</figure>
+								</a>
+								
+								<div id="presi" class="newoverlay">
+
+								  <!-- Button to close the overlay navigation -->
+								  <a href="javascript:void(0)" class="closebtn" onclick="closepresi()">&times;</a>
+
+								  <!-- Overlay content -->
+								 <div class="newoverlay-content">
+									<h1 id="about">About<h1>
+									<p class="about">The Presidential council forms the backbone of the Gymkhana. It is an integral part which facitilates all the administrative parts of the Gymkhana.</br> The President is the de-facto head of the presidential council. The council consists of the President, Vice-president, senators and general body </br>members. The council maintains harmony among all the other councils and acts as a bridge between the students and administration.
+</p>
+									
+									
+									<div class="members"><a>Members</a></div>
+									<div class="council"><a>Council</a></div>
+								</div>
+
+								</div>
+						</article>
                     </div>
                     <div class="col-md-4">
                         <article class="article-post">
-                            <a href="../Councils/ZoomSlider/ac.html">
+                            <a onclick="openaca()">
                                 <div class="article-image has-overlay" style="background-image: url(img/article-02.jpg)">
                                 </div>
                                 <figure>
@@ -428,19 +441,39 @@
                                     </figcaption>
                                 </figure>
                             </a>
-                            <ul class="article-footer">
-                                <li class="article-category">
-                                    <a href="#">Members</a>
-                                </li>
-                                <li class="article-comments">
-                                    <span><i class="fa fa-comments"></i> 17</span>
-                                </li>
-                            </ul>
+                            <div id="aca" class="newoverlay">
+
+								  <!-- Button to close the overlay navigation -->
+								  <a href="javascript:void(0)" class="closebtn" onclick="closeaca()">&times;</a>
+
+								  <!-- Overlay content -->
+								 <div class="newoverlay-content">
+									<h1 id="about">About<h1>
+									<p class="about">Academic Council
+The academic council is responsible for all the matters pertaining to the academics of the student body. <br>It is subdivided into 4 committees to ensure proper attention is given to all aspects related to academics. It consists of senators and general body members.<br> 
+
+AC-UGC<br>
+ AC-UGC deals with academic matters pertaining to undergraduate students. The council comprises of student representatives and faculty.<br>
+
+AC-EPC<br>
+
+AC-LC<br>
+This sub-commitee deals with all issues related to library. It consists of student representatives who directly coordinate with library staff to ensure that just demands of student body are bought forward and a feasible solution is made.<br>
+AC-SAC<br>
+AC-Student affairs council deals with all the legal matters within the institute premises. All the violations regarding the code of conduct laid down by the institute are dealt by the council. <br>
+</p>
+									
+									
+									<div class="members"><a>Members</a></div>
+									<div class="council"><a>Council</a></div>
+								</div>
+
+								</div>
                         </article>
                     </div>
                     <div class="col-md-4">
                         <article class="article-post">
-                            <a href="../Councils/ZoomSlider/s.html">
+                            <a onclick="opensci()">
                                 <div class="article-image has-overlay" style="background-image: url(img/science.png)">
                                 </div>
                                 <figure>
@@ -450,21 +483,39 @@
                                     </figcaption>
                                 </figure>
                             </a>
-                            <ul class="article-footer">
-                                <li class="article-category">
-                                    <a href="#">Members</a>
-                                </li>
-                                <li class="article-comments">
-                                    <span><i class="fa fa-comments"></i> 13</span>
-                                </li>
-                            </ul>
+                            <div id="sci" class="newoverlay">
+
+								  <!-- Button to close the overlay navigation -->
+								  <a href="javascript:void(0)" class="closebtn" onclick="closesci()">&times;</a>
+
+								  <!-- Overlay content -->
+								 <div class="newoverlay-content">
+									<h1 id="about">About<h1>
+									<p class="about">The Science and Technology council aims at stimulating the technical mindset of students. The council has over the years nurtured a wide and </br>diverse range of clubs which cater to all aspects of technical environment of the institute. These institutes over time have proven their mettle</br> by winning accolades for college in various competitions.  The council carries out its activities through the following clubs. The council is headed</br> by the General Secretary of the Science and Tech. The council is also responsible for Plinth, the annual Techno-literary-management festival of LNMIIT.</br>
+											The council consists of 8 clubs.</br>
+											1. Astronomy Club</br>
+											2. Cybros</br>
+											3. E-cell</br>
+											4. Innovation and incubation club</br>
+											5. Literary Committee</br>
+											6. LNMIIT MUN Society</br>
+											7. Phoenix Club</br>
+											8. Quiz club</br>
+</p>
+									
+									
+									<div class="members"><a>Members</a></div>
+									<div class="council"><a>Council</a></div>
+								</div>
+
+								</div>
                         </article>
                     </div>
                 </div>
                 <div class="row has-top-margin">
                     <div class="col-md-4">
                         <article class="article-post">
-                            <a href="../Councils/ZoomSlider/cult.html">
+                            <a onclick="opencult()">
                                 <div class="article-image has-overlay" style="background-image: url(img/culture.jpg)">
                                 </div>
                                 <figure>
@@ -474,19 +525,37 @@
                                     </figcaption>
                                 </figure>
                             </a>
-                            <ul class="article-footer">
-                                <li class="article-category">
-                                    <a href="#">Members</a>
-                                </li>
-                                <li class="article-comments">
-                                    <span><i class="fa fa-comments"></i> 14</span>
-                                </li>
-                            </ul>
+                            <div id="cult" class="newoverlay">
+
+								  <!-- Button to close the overlay navigation -->
+								  <a href="javascript:void(0)" class="closebtn" onclick="closecult()">&times;</a>
+
+								  <!-- Overlay content -->
+								 <div class="newoverlay-content">
+									<h1 id="about">About<h1>
+									<p class="about">The cultural council mamnges all the non-technical clubs in coollege catering to individual talents of the student body. The diverse range of clubs</br> in cultural council give the student body a platform to showcase their creativity in non-technical fields. Cultural council is headed by the General</br> Secretary of the cultural council, the club coordinators, senators and the general body members. The cultural council is also responsible for organising Vivacity, the annual cultural fest of LNMIIT, one of the largest cultural fests in the country.</br>
+											The council consists of 9 clubs.</br>
+											1. Art club</br>
+											2. Dance club</br>
+											3. Drama club</br>
+											4. Fashion club</br>
+											5. Fundoo club</br>
+											6. Nukkad club</br>
+											7. Photography club</br>
+											8. Sankalp club</br>
+											</p>
+									
+									
+									<div class="members"><a>Members</a></div>
+									<div class="council"><a>Council</a></div>
+								</div>
+
+								</div>
                         </article>
                     </div>
                     <div class="col-md-4">
                         <article class="article-post">
-                            <a href="../Councils/ZoomSlider/sport.html">
+                            <a onclick="openspo()">
                                 <div class="article-image has-overlay" style="background-image: url(img/article-05.jpg)">
                                 </div>
                                 <figure>
@@ -496,19 +565,28 @@
                                     </figcaption>
                                 </figure>
                             </a>
-                            <ul class="article-footer">
-                                <li class="article-category">
-                                    <a href="#">Product</a>
-                                </li>
-                                <li class="article-comments">
-                                    <span><i class="fa fa-comments"></i> 55</span>
-                                </li>
-                            </ul>
+                            <div id="spo" class="newoverlay">
+
+								  <!-- Button to close the overlay navigation -->
+								  <a href="javascript:void(0)" class="closebtn" onclick="closespo()">&times;</a>
+
+								  <!-- Overlay content -->
+								 <div class="newoverlay-content">
+									<h1 id="about">About<h1>
+									<p class="about">The sports council mananges all the sports clubs in college. It is responsible for managing all the college teams in all sports. The council also takes all</br> decisions with regards to sports infrastructure of college and sports inventory.</br> The sports are:Cricket, Football, Basketball, Volleyball, Table Tennis, Squash, Badminton, Lawn Tennis, Chess, Carrom, Karate, Taekwando.
+</p>
+									
+									
+									<div class="members"><a>Members</a></div>
+									<div class="council"><a>Council</a></div>
+								</div>
+
+								</div>
                         </article>
                     </div>
                     <div class="col-md-4">
                         <article class="article-post">
-                            <a href="../Councils/ZoomSlider/cosha.html">
+                            <a onclick="opencosh()">
                                 <div class="article-image has-overlay" style="background-image: url(img/article-06.jpg)">
                                 </div>
                                 <figure>
@@ -518,14 +596,23 @@
                                     </figcaption>
                                 </figure>
                             </a>
-                            <ul class="article-footer">
-                                <li class="article-category">
-                                    <a href="#">UX Design</a>
-                                </li>
-                                <li class="article-comments">
-                                    <span><i class="fa fa-comments"></i> 20</span>
-                                </li>
-                            </ul>
+                            <div id="cosh" class="newoverlay">
+
+								  <!-- Button to close the overlay navigation -->
+								  <a href="javascript:void(0)" class="closebtn" onclick="closecosh()">&times;</a>
+
+								  <!-- Overlay content -->
+								 <div class="newoverlay-content">
+									<h1 id="about">About<h1>
+									<p class="about">The Council of Students and Hostel Affairs manages all aspects related to mess and hostels. The committee works in tandem with all the mess</br> in-charges and hostel wardens. The COSHA consists of COSHA head, senators and general body members.  	
+</p>
+									
+									
+									<div class="members"><a>Members</a></div>
+									<div class="council"><a>Council</a></div>
+								</div>
+
+								</div>
                         </article>
                     </div>
                 </div>
@@ -728,6 +815,7 @@
     <script src="js/min/jquery.waypoints.min.js"></script>
     <script src="js/min/flickity.pkgd.min.js"></script>
     <script src="js/min/scripts-min.js"></script>
+	<script src="js/main.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
     <!--
 	<script>

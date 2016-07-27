@@ -219,3 +219,57 @@
 	init();
 
 })(window);
+
+function openpresi() {
+    document.getElementById("presi").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closepresi() {
+    document.getElementById("presi").style.width = "0%";
+}
+
+function openaca() {
+    document.getElementById("aca").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeaca() {
+    document.getElementById("aca").style.width = "0%";
+}
+
+function opensci() {
+    document.getElementById("sci").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closesci() {
+    document.getElementById("sci").style.width = "0%";
+}
+
+function opencult() {
+    document.getElementById("cult").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closecult() {
+    document.getElementById("cult").style.width = "0%";
+}
+
+function openspo() {
+    document.getElementById("spo").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closespo() {
+    document.getElementById("spo").style.width = "0%";
+}
+
+function opencosh() {
+    document.getElementById("cosh").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closecosh() {
+    document.getElementById("cosh").style.width = "0%";
+}
