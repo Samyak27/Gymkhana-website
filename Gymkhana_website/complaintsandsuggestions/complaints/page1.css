@@ -1,11 +1,15 @@
+@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1600px)
+  {
 #back
 {
    position: absolute;
     left:0px;
     top:400px;
     background-color:white;
-    height:600px;
-    width:1360px;
+    height:100%;
+    width:100%;
 }
 h3
 {
@@ -115,4 +119,251 @@ h3
     color: cadetblue;
     padding-top: 30px;
     padding-left: 40px;
+}
+  }
+@media screen 
+  and (min-device-width: 1601px) 
+  and (max-device-width: 1920px)
+  {
+#back
+{
+   position: absolute;
+    left:0px;
+    top:400px;
+    background-color:white;
+    height:100%;
+    width:100%;
+}
+h3
+{
+    position:absolute;
+    top:0px;
+    left:900px;
+}
+#box
+{
+    position: absolute;
+    left:500px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box1
+{
+    position: absolute;
+    left:750px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box2
+{
+    position: absolute;
+    left:1000px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box3
+{
+    position: absolute;
+    left:1250px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box4
+{
+    position: absolute;
+    left:500px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box5
+{
+    position: absolute;
+    left:750px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box6
+{
+    position: absolute;
+    left:1000px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box7
+{
+    position: absolute;
+    left:1250px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+.p2
+{
+    color: cadetblue;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.img
+{
+    width:80%;
+    padding-left: 60px;
+}
+#ai
+{
+ color: cadetblue;
+    padding-top: 30px;
+    padding-left: 50px;   
+}
+#si
+{
+    color: cadetblue;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+  }
+@media screen 
+and (min-device-width: 768px)
+and (max-device-width: 1199px)
+{
+    #back
+{
+   position: absolute;
+    left:0px;
+    top:400px;
+    background-color:white;
+    height:100%;
+    width:100%;
+}
+h3
+{
+    position:absolute;
+    top:0px;
+    left:400px;
+}
+#box
+{
+    position: absolute;
+    left:100px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box1
+{
+    position: absolute;
+    left:350px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box2
+{
+    position: absolute;
+    left:600px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box3
+{
+    position: absolute;
+    left:850px;
+    top:100px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box4
+{
+    position: absolute;
+    left:100px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box5
+{
+    position: absolute;
+    left:350px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box6
+{
+    position: absolute;
+    left:600px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+#box7
+{
+    position: absolute;
+    left:850px;
+    top:350px;
+    height:200px;
+    width:200px;
+    background-color: white;
+    box-shadow: 3px 3px #cccccc;
+}
+.p2
+{
+    color: cadetblue;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.img
+{
+    width:80%;
+    padding-left: 60px;
+}
+#ai
+{
+ color: cadetblue;
+    padding-top: 30px;
+    padding-left: 50px;   
+}
+#si
+{
+    color: cadetblue;
+    padding-top: 30px;
+    padding-left: 40px;
+}
 }
