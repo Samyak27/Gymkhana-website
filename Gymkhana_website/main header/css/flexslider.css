@@ -1,27 +1,12 @@
-/*
- * jQuery FlexSlider v2.6.0
- * http://www.woothemes.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 and later license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Tyler Smith (@mbmufffin)
- *
- */
-/* ====================================================================================================================
- * FONT-FACE
- * ====================================================================================================================*/
-@font-face {
+
   font-family: 'flexslider-icon';
   src: url('fonts/flexslider-icon.eot');
   src: url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-/* ====================================================================================================================
- * RESETS
- * ====================================================================================================================*/
+ /* RESETS*/
+ 
 .flex-container a:hover,
 .flex-slider a:hover {
   outline: none;
@@ -37,9 +22,8 @@
 .flex-pauseplay span {
   text-transform: capitalize;
 }
-/* ====================================================================================================================
- * BASE STYLES
- * ====================================================================================================================*/
+/* 
+  BASE STYLES*/
 .flexslider {
   margin: 0;
   padding: 0;
@@ -69,9 +53,9 @@ html[xmlns] .flexslider .slides {
 .no-js .flexslider .slides > li:first-child {
   display: block;
 }
-/* ====================================================================================================================
- * DEFAULT THEME
- * ====================================================================================================================*/
+/* 
+ DEFAULT THEME
+*/
 .flexslider {
   margin: 0 0 60px;
   background: #ffffff;
@@ -260,9 +244,8 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
-/* ====================================================================================================================
- * RESPONSIVE
- * ====================================================================================================================*/
+/* RESPONSIVE
+*/
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
