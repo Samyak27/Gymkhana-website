@@ -206,3 +206,19 @@ li{
 		position:relative;
 		left:200px;
 }
+
+#back{
+        font:normal 25px Tahoma;
+        color:#045FB4;
+        /*border:1px solid white;*/
+        padding:10px;
+        position:relative;
+        top:-60px;
+        left:1200px;
+}
+
+#back:hover{
+        color:white;
+        cursor: pointer;
+        border-bottom: none;
+}
