@@ -234,3 +234,26 @@ body {
 #mukul{
 	left:190px;
 }
+
+a{
+		text-decoration:none;
+		
+}
+
+#home{
+        font:normal 25px Tahoma;
+        color: #000;
+        /*border:1px solid white;*/
+        padding:10px;
+        position:relative;
+        top:-200px;
+        left:1250px;
+        opacity:0.6;
+}
+
+#home:hover{
+        cursor: pointer;
+        border-bottom:1px solid rgba(0,0,0,0.6) ;
+}
+
+
