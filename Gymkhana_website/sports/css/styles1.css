@@ -291,7 +291,7 @@ Navigation
   top: 0;
   right: 15px;
   z-index: 999999;
-  padding: 10px 35px 16px 0;
+  padding: 5px 20px 10px 0;
   cursor: pointer; }
 
 .nav-toggle:focus {
@@ -338,7 +338,7 @@ Navigation
   position: absolute;
   height: 26px;
   right: 10px;
-  top: 48px;
+  top: 30px;
   visibility: hidden;
   -webkit-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out; }
@@ -348,7 +348,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("../img/hero.jpg") center center;
+  background: url("../img/sportsbg.jpg") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -378,7 +378,7 @@ Hero
   width: 100%; }
 
 header {
-  padding: 50px 0;
+  padding: 10px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
@@ -524,7 +524,9 @@ Features-stack
   .features-extra .macbook-wrap {
     position: absolute;
     width: 916px;
-    height: 540px;
+    height: 400px;
+    background: url("../img/logo.png") no-repeat center center;
+    background-size: auto 420px; 
     top: 114px;
     z-index: 4;
     left: 50%; }
