@@ -1,0 +1,226 @@
+	<!DOCTYPE HTML>
+<!--
+	Webpage for sci and tech club E-Cell last updated 9/7/2016 by Siddharth goyal22
+-->
+<html>
+	<head>	
+		<link rel="shortcut icon" href="images/ecell.ico" />
+		<title>E-Cell</title>
+		<!--color of bar for uc-->
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#0e0a56">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#0e0a56">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!--color part ends-->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/ecell.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1>E-Cell</h1>
+				<nav id="nav">
+					<ul>
+						<!--to add new sentions to the top bar add ul items here-->
+						<li><a href="#one">About</a></li>
+						<li><a href="#three">Club members</a></li>
+						<li><a href="#two">Achievements</a></li>
+						<li><a href="#footer">Contact Us</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner" class="ecellbanner">
+				<h2>Welcome</h2>
+				<p>This is the official web page of the<br/> E-Cell</p>
+				<ul class="actions">
+					<li><a href="#one" class="button special big">Get Started</a></li>
+					<br>
+							<br>
+							<li><a href="http://www.ecell.lnmiit.ac.in" class="button special big" target="_blank">Our college affiliated website</a></li>
+				</ul>
+			</section>
+
+			<!-- One -->
+				<section id="one" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>About</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<img src="images/ecell.ico"/>
+									<strong><p>E-Cell, LNMIIT is a group of passionate and exuberant students at LNMIIT, Jaipur working on promoting the Startup culture and a spirit of Entrepreneurship among the youngsters. Being one of the most active E-Cell’s in Jaipur, we attend events related to Entrepreneurship on a frequent basis in and outside Jaipur. Not just this, we ourselves organize a wide variety of events and competitions for the brain storming of budding entrepreneurs.  </p></strong>
+								</header>
+								<!--<img src="images/pic03.jpg" alt="" />-->
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<p> We actively participated and won Entrepreneurship related events. Two of our most charismatic members won the Rajasthan Startup Fest when others volunteered in the same which marked the beginning of a great academic year ahead.  We ourselves organized appathon with Think Space Jaipur to provide a great learning experience to our members as well as students of other colleges.</p>
+								<p>We also organized two major events in our annual Techno-Management Fest- PLINTH which marked over 400 students gathering and participating in the event - "Startup Intern Fair". We also managed to get a highly qualified judging panel for our live crowd funding cum B-Plan competition - "Negotio". To mark our presence at the end of the academic year we organized "Sell with E-Cell" - Bazaar by Entrepreneur to engage all the students of the college and bring out the hidden entrepreneur in them. </p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="wrapper style1">
+					<div class="container">
+						<header class="major special">
+							<h2>Club Members</h2>
+							<p>E-Cell has over 30+ members comprising of students from all bracnhes spread over all 4 UG years. </p>
+						</header>
+						<ul class="actions">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="files/ecellclubmembers.pdf" download="clubmembers" class="button special big">Club Members</a></li>
+					
+						<br>
+						<br><br>
+						</ul>
+						
+						
+						<div class="row 150%" >
+						<div class="6u 12u$(xsmall)">
+						<h1 style="text-align:center; font-size:2em;">Faculty Mentor</h1>
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="image rounded"><img src="images/anupam.jpg" alt="" /></div>
+								
+							</div>
+							<div class="feature">
+								<div class="image rounded"></div>
+								<div class="content">
+									<header>
+										<h4>Prof. Anupam Singh</h4>
+										<p>Professor Physics</p>
+									</header>
+									
+								</div>
+
+						</div>
+					</div>
+					</div>
+					<div class="6u$ 12u$(xsmall)">
+					<h1 style="text-align:center; font-size:2em;">Coordinators</h1>
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="image rounded"><img src="images/ayush.jpg" alt="" /></div>
+								
+							</div>
+							<div class="feature">
+								<div class="image rounded"></div>
+								<div class="content">
+									<header>
+										<h4>Ayush Munia</h4>
+										<p>Junior at LNMIIT majoring in XYZ</p>
+									</header>
+									<p style="display:block;width:170%;">A Startup Enthusiast with a practical learning attitude.<br>
+										Passionate about bringing a change with team collaboration and self-motivation.  </p>
+								</div>
+							</div>
+							</div>
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="image rounded"><img src="images/akil.JPG" alt="" /></div>
+								
+							</div>
+							<div class="feature">
+								<div class="image rounded"></div>
+								<div class="content">
+									<header>
+										<h4>Akhilesh Maheshwari</h4>
+										<p>Junior at LNMIIT majoring in XYZ</p>
+									</header>
+									<p style="display:block;width:170%;">A curious introvert with a zeal to do something different from common league.<br>
+										Love exploring new domians.</p>
+								</div>
+
+						</div>
+					</div>
+					</div>
+					</div>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2 special">
+					<div class="container">
+						<header class="major">
+							<h2>Achievements</h2>
+							<p>Abiding by the above quote the E-Cell, LNMIIT has achieved a lot in all these years, all credited to the hardworking team of the club plus the students associated with it. Not to forget the contribution of the faculty of the institution whose continuous guidance have helped PHOENIX achieve laurels in various field of work.</p>
+						</header>
+						<div class="row 150%">
+							<div class="6u 12u$(xsmall)">
+								<div class="image fit captioned">
+									<img src="images/ece1.JPG" alt="" />
+									<h3>Members of E-Cell participating at Smash Up organized by TIE.</h3>
+								</div>
+							</div>
+							<div class="6u$ 12u$(xsmall)">
+								<div class="image fit captioned">
+									<img src="images/ece2.jpg" alt="" />
+									<h3>The winners of Rajasthan Startup Fest with prize worth-50,000</h3>
+								</div>
+							</div>
+							<div class="6u$ 12u$(medium)">
+						</div>
+						<!--buttons secstion if wanted
+						<ul class="actions">
+							<li><a href="#" class="button special big">Nulla luctus</a></li>
+							<li><a href="#" class="button big">Sed vulputate</a></li>
+						</ul>-->
+					</div>
+				</section>
+
+			
+
+			<!-- Four -->
+				<section id="four" class="wrapper ecellbanner special">
+					<div class="container">
+						<header class="major">
+							<h2></h2>
+							<p>We would love to hear from you, like our facebook page to stay tuned for more.</p>
+							<br>
+							<p>You can reach us by our Facebook page or contact us by mail</p></br>
+							<p>Email ID: email id of club</p>
+						</header>
+						<ul class="actions">
+							<li><a href="#" class="button special big">Back to the top</a></li>
+
+						</ul>
+					</div>
+				</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					
+					<br>
+					<br>
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/ecell.lnmiit/" target="_blank" " class="icon fa-facebook"></a></li>
+						<!-- Icons for more social media platforms, if clubs have them<li><a href="#" class="icon fa-twitter"></a></li>
+						<li><a href="#" class="icon fa-instagram"></a></li>
+					-->
+					</ul>
+					<ul class="copyright">
+						<li>&copy; LNMIIT Students' Gymkhana</li>
+						<li>Designed by: <a href="https://www.facebook.com/siddharth.goyal22" target="_blank">Siddharth Goyal</a></li>
+						<li>Images: E-Cell LNMIIT</li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>
