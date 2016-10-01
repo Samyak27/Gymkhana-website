@@ -1,6 +1,50 @@
-<html>
-<body>
-  <!--start index oage for gh-pages-->
-<a href="Gymkhana_website/main header/main page.html">click here</a>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body class="demo-3">
+		<div class="container">		
+			<div class="content">
+				<body onload='demo.init()'>
+			</div>
+		</div><!-- /container -->
+		<script>
+			const SETTINGS = {
+				rebound: {
+					tension: 10,
+					friction: 7
+				},
+				spinner: {
+					id: 'spinner',
+					radius: 150,
+					sides: 8,
+					depth: 6,
+					colors: {
+						background: '#181818',
+						stroke: '#D23232',
+						base: null,
+						child: '#181818'
+					},
+					alwaysForward: true, // When false the spring will reverse normally.
+					restAt: null, // A number from 0.1 to 0.9 || null for full rotation
+					renderBase: false
+				}
+			};
+		</script>
+		<script src="js/main.js"></script>
+		<script>
+    setTimeout(function(){
+       window.location='Gymkhana_website/main header/main page.html';
+    }, 2500);
+</script>
+	</body>
 </html>
