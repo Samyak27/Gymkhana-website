@@ -49,13 +49,13 @@ body {
 
 #about{
 	position:relative;
-	top:50px;
+	top:20px;
 	left:50px;
 }
 
 .about{
 	position:relative;
-	top:50px;
+	top:0px;
 	left:50px;
 	color:white;
 	letter-spacing:2px;
